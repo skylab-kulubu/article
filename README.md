@@ -24,6 +24,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF write-up Publisher](https://medium.com/@farukomererdem2003/tryhackme-publisher-writeup-ffc0b0fa0112) @farukerdem
 - [X] [CTF write-up Monday Monitor](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Monday_Monitor) @farukerdem
 - [X] [CTF write-up Retracted](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Retracted) @farukerdem
+- [ ] [CTF_BountyHacker](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_BountyHacker) @meliksahercan
 
 ## list of SKYSİS
 
