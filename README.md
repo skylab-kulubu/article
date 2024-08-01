@@ -28,6 +28,8 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_YearOfTheRabbit](https://rocinante7.medium.com/year-of-the-rabbit-tryhackme-writeup-5075b9076504) @meliksahercan
 - [X] [CTF Wgel](https://rocinante7.medium.com/wgel-ctf-tryhackme-walkthrough-427fbe963566) @meliksahercan
 - [X] [CTF_GamingServer](https://rocinante7.medium.com/tryhackme-gamingserver-writeup-2d11c494838f) @meliksahercan
+- [X] [CTF_BrooklynNineNine](https://medium.com/@rocinante7/tryhackme-brooklyn-nine-nine-writeup-defab1193932) @meliksahercan
+
 
 ## list of SKYSİS
 
