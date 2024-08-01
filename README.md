@@ -25,9 +25,9 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF write-up Monday Monitor](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Monday_Monitor) @farukerdem
 - [X] [CTF write-up Retracted](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Retracted) @farukerdem
 - [X] [CTF_BountyHacker](https://github.com/skylab-kulubu/article/blob/main/SKYSEC/CTF_BountyHacker/BountyHacker.md) @meliksahercan
-- [ ] [CTF_YearOfTheRabbit](https://rocinante7.medium.com/year-of-the-rabbit-tryhackme-writeup-5075b9076504) @meliksahercan
-- [ ] [CTF Wgel](https://rocinante7.medium.com/wgel-ctf-tryhackme-walkthrough-427fbe963566) @meliksahercan
-- [ ] [CTF_GamingServer](https://rocinante7.medium.com/tryhackme-gamingserver-writeup-2d11c494838f) @meliksahercan
+- [X] [CTF_YearOfTheRabbit](https://rocinante7.medium.com/year-of-the-rabbit-tryhackme-writeup-5075b9076504) @meliksahercan
+- [X] [CTF Wgel](https://rocinante7.medium.com/wgel-ctf-tryhackme-walkthrough-427fbe963566) @meliksahercan
+- [X] [CTF_GamingServer](https://rocinante7.medium.com/tryhackme-gamingserver-writeup-2d11c494838f) @meliksahercan
 
 ## list of SKYSİS
 
