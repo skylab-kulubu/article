@@ -19,6 +19,11 @@ This repo, includes academic papers that we are working on.
 - [ ] [CTF_write-up_Ohsint](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/writeup_ohsint) @ahmetburaki
 - [ ] [CTF_write-up_PickleRick](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/picklerick) @ahmetburaki
 - [x] [CTF_write-up_Cyborg](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/writeup_cyborg) @Onur-TURAN
+- [X] [CTF write-up Jingle Bell](https://medium.com/@farukomererdem2003/hackthebox-sherlock-jingle-bell-15fb7f7f83f6) @farukerdem
+- [X] [CTF write-up Ultimatum](https://medium.com/@farukomererdem2003/hackthebox-sherlock-ultimatum-012a72931163) @farukerdem
+- [X] [CTF write-up Publisher](https://medium.com/@farukomererdem2003/tryhackme-publisher-writeup-ffc0b0fa0112) @farukerdem
+- [X] [CTF write-up Monday Monitor](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Monday_Monitor) @farukerdem
+- [X] [CTF write-up Retracted](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Retracted) @farukerdem
 
 ## list of SKYSİS
 
