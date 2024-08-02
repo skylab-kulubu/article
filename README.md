@@ -30,6 +30,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_GamingServer](https://rocinante7.medium.com/tryhackme-gamingserver-writeup-2d11c494838f) @meliksahercan
 - [X] [CTF_BrooklynNineNine](https://medium.com/@rocinante7/tryhackme-brooklyn-nine-nine-writeup-defab1193932) @meliksahercan
 - [X] [CTF Disgruntled write-up](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Disgruntled) @farukerdem
+- [X] [CTF_Tomghost](https://rocinante7.medium.com/tryhackme-tomghost-writeup-686e345963d1) @meliksahercan
 
 
 ## list of SKYSİS
