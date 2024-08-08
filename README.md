@@ -31,6 +31,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_BrooklynNineNine](https://medium.com/@rocinante7/tryhackme-brooklyn-nine-nine-writeup-defab1193932) @meliksahercan
 - [X] [CTF Disgruntled write-up](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Disgruntled) @farukerdem
 - [X] [CTF_Tomghost](https://rocinante7.medium.com/tryhackme-tomghost-writeup-686e345963d1) @meliksahercan
+- [X] [Windows Forensics Cheat Sheet](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/article_Windows_Forensics_Cheatsheet)
 
 
 ## list of SKYSİS
