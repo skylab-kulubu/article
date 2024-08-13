@@ -33,6 +33,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_Tomghost](https://rocinante7.medium.com/tryhackme-tomghost-writeup-686e345963d1) @meliksahercan
 - [X] [Windows Forensics Cheat Sheet](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/article_Windows_Forensics_Cheatsheet) @farukerdem
 - [X] [CTF_PermX](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_PermX) @farukerdem
+- [X] [CTF Sea](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Sea) @farukerdem
 
 
 ## list of SKYSİS
