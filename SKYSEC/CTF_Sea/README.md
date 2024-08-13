@@ -1,4 +1,9 @@
 # Sea
+- T1566.002
+- T1204.001
+- T1068
+- T1127
+  
 # Discovery
 
 ![Screenshot_20240813_104437](https://github.com/user-attachments/assets/0d5fb50b-eb6f-4290-94cb-439fc5f5156e)
