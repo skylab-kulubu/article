@@ -35,7 +35,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_PermX](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_PermX) @farukerdem
 - [X] [CTF Sea](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Sea) @farukerdem
 - [X] [pfSene Firewall](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/article_pfSenseFirewall/pfSense.pdf) @farukerdem
-- [ ] [CTF write-up Chemistry](https://github.com/skylab-kulubu/article/issues/30) @hacywhatt
+- [ ] [CTF_Chemistry](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Chemistry) @hacywhatt
 
 
 ## list of SKYSİS
