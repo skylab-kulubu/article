@@ -36,6 +36,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF Sea](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Sea) @farukerdem
 - [X] [pfSene Firewall](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/article_pfSenseFirewall/pfSense.pdf) @farukerdem
 - [ ] [CTF_Chemistry](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Chemistry) @hacywhatt
+- [ ] [5 Dakikada Site-To-Site VPN (Wireguard)](SKYSEC/article_Wireguard_site-to-site_VPN)
 
 
 ## list of SKYSİS
