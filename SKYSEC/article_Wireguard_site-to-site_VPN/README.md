@@ -71,6 +71,7 @@ PrivateKey = <YOUR-CLIENT-PRIVATE-KEY>
 PublicKey = <YOUR-SERVER-PUBLIC-KEY>
 Endpoint = <SERVER-PUBLIC-IP-ADDRESS>:51820
 AllowedIPs = 10.0.0.0/24
+PersistentKeepalive = 25
 ```
 ## Start Client
 ```
