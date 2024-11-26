@@ -77,3 +77,7 @@ PersistentKeepalive = 25
 ```
 wg-quick up /etc/wireguard/wg0.conf
 ```
+
+```
+wg set wg0 peer <client_pubkey> allowed-ips 10.0.0.x/32
+```
