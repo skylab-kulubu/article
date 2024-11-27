@@ -130,3 +130,7 @@ echo "PersistentKeepalive = 25" | tee -a $root/wg0.conf
 
 wg set $interface_name peer $(cat $root/publickey) allowed-ips $ip/32 persistent-keepalive 25
 ```
+
+```bash
+bash script.py client-name 10.0.0.x
+```
