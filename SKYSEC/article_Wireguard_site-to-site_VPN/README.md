@@ -85,3 +85,48 @@ wg set wg0 peer <client_pubkey> allowed-ips 10.0.0.x/32
 ```
 wg-quick save wg0
 ```
+
+# Peer Scripti
+Yeni kullanıcı eklemek için otomasyon scripti
+
+```bash
+#!/bin/bash
+
+
+if [ -z "$1" ]; then
+  echo "Kullanıcı adını yaz"
+  exit 1
+fi
+if [ -z "$2" ]; then
+  echo "IP adresini yaz"
+  exit 1
+fi
+
+# Sample Public Key
+server_public_key='WuDy9qbh7xMjUNQomTZ/5l2saL35hcaSXpg8FC5ZL04='
+
+# Wireguard Server IP or Domain
+server_ip_or_domain='your.domain.com'
+
+# Interface name is the same as the name of your Wireguard configuration file
+interface_name="wg0"
+
+root=/var/wireguard/keys/$1
+ip=$2
+
+mkdir $root
+wg genkey | tee $root/privatekey | wg pubkey > $root/publickey
+echo "[Interface]" | tee -a $root/wg0.conf
+echo "Address = $ip/32" | tee -a $root/wg0.conf
+echo "ListenPort = 51820" | tee -a $root/wg0.conf
+echo "PrivateKey = $(cat $root/privatekey)" | tee -a $root/wg0.conf
+
+echo "[Peer]" | tee -a $root/wg0.conf
+echo "PublicKey = $server_public_key" | tee -a $root/wg0.conf
+echo "Endpoint = $server_ip_or_domain:51820" | tee -a $root/wg0.conf
+echo "AllowedIPs = 10.0.0.0/24" | tee -a $root/wg0.conf
+echo "PersistentKeepalive = 25" | tee -a $root/wg0.conf
+
+
+wg set $interface_name peer $(cat $root/publickey) allowed-ips $ip/32 persistent-keepalive 25
+```
