@@ -111,5 +111,18 @@
 ### Command Execution:
 * NTUSER.DAT/Software/Microsoft/Windows/CurrentVersion/Explorer/RunMRU
 
+### Shutdown Time 
+`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows` and get Hex value like `C4-46-BE-DC-D1-5D-D9-01`. Remove dashes `C446BEDCD15DD901`.
 
+```python3
+>>> import struct
+>>> import datetime
+>>> shutdown_time_hex = "C446BEDCD15DD901".lower()
+>>> shutdown_time_hex
+'c446bedcd15dd901'
+>>> shutdown_time = struct.unpack('<Q', bytes.fromhex(shutdown_time_hex))[0]
+>>> shutdown_datetime = datetime.datetime.utcfromtimestamp((shutdown_time - 116444736000000000) / 10000000)
+>>> print("Son Kapanma Zamanı (UTC):", shutdown_datetime)
+Son Kapanma Zamanı (UTC): 2023-03-23 21:53:11.714580
+```
 
