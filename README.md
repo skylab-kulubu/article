@@ -35,9 +35,11 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_PermX](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_PermX) @farukerdem
 - [X] [CTF Sea](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Sea) @farukerdem
 - [X] [pfSene Firewall](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/article_pfSenseFirewall/pfSense.pdf) @farukerdem
-- [ ] [CTF_Chemistry](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Chemistry) @hacywhatt
-- [ ] [5 Dakikada Site-To-Site VPN (Wireguard)](SKYSEC/article_Wireguard_site-to-site_VPN)
-- [ ] [CTF_Instant](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Instant) @hacywhatt
+- [X] [CTF_Chemistry](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Chemistry) @hacywhatt
+- [X] [5 Dakikada Site-To-Site VPN (Wireguard)](SKYSEC/article_Wireguard_site-to-site_VPN)
+- [X] [CTF_Instant](https://github.com/skylab-kulubu/article/tree/main/SKYSEC/CTF_Instant) @hacywhatt
+- [X] [CTF_PowerShell_Script](https://faruk3rdem.medium.com/lets-defend-powershell-script-51a857d26839) @farukerdem
+
   
 
 
