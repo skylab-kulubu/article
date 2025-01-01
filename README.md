@@ -41,6 +41,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_PowerShell_Script](https://faruk3rdem.medium.com/lets-defend-powershell-script-51a857d26839) @farukerdem
 - [X] [CTF_Lookup](https://faruk3rdem.medium.com/tryhackme-lookup-dc89d5b4cce5) @farukerdem
 - [X] [CTF_Whiterose](SKYSEC/CTF_Whiterose/README.md) @farukerdem
+- [X] [CTF_Sightless](SKYSEC/CTF_Sightless/README.md) @farukerdem
 
   
 
