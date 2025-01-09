@@ -45,7 +45,7 @@ This repo, includes academic papers that we are working on.
 - [X] [CTF_Caption](SKYSEC/CTF_Caption/README.md) @farukerdem
 - [X] [CTF_Infltrator](SKYSEC/CTF_Infltrator/README.md) @farukerdem
 - [X] [CTF Underpass](https://skysec.yildizskylab.com/CTF-Write-Ups/underpass) @farukerdem
-
+- [ ] [CTF _Gotta_Catch’em_All!](https://medium.com/@e-ukiyo/tryhackme-gotta-catchem-all-write-up-91a124820d65) @hacywhatt
   
 
 
