@@ -103,29 +103,30 @@ if [ -z "$2" ]; then
 fi
 
 # Sample Public Key
-server_public_key='WuDy9qbh7xMjUNQomTZ/5l2saL35hcaSXpg8FC5ZL04='
+server_public_key='server public key '
 
 # Wireguard Server IP or Domain
-server_ip_or_domain='your.domain.com'
+server_ip_or_domain='server ip or domain'
 
 # Interface name is the same as the name of your Wireguard configuration file
-interface_name="wg0"
+interface_name="skysecVpn"
 
 root=/var/wireguard/keys/$1
 ip=$2
+$subnet="192.168.231.0/24"
 
-mkdir $root
+mkdir -p $root
 wg genkey | tee $root/privatekey | wg pubkey > $root/publickey
-echo "[Interface]" | tee -a $root/wg0.conf
-echo "Address = $ip/32" | tee -a $root/wg0.conf
-echo "ListenPort = 51820" | tee -a $root/wg0.conf
-echo "PrivateKey = $(cat $root/privatekey)" | tee -a $root/wg0.conf
+echo "[Interface]" | tee -a $root/$interface_name.conf
+echo "Address = $ip/32" | tee -a $root/$interface_name.conf
+echo "ListenPort = 51820" | tee -a $root/$interface_name.conf
+echo "PrivateKey = $(cat $root/privatekey)" | tee -a $root/$interface_name.conf
 
-echo "[Peer]" | tee -a $root/wg0.conf
-echo "PublicKey = $server_public_key" | tee -a $root/wg0.conf
-echo "Endpoint = $server_ip_or_domain:51820" | tee -a $root/wg0.conf
-echo "AllowedIPs = 10.0.0.0/24" | tee -a $root/wg0.conf
-echo "PersistentKeepalive = 25" | tee -a $root/wg0.conf
+echo "[Peer]" | tee -a $root/$interface_name.conf
+echo "PublicKey = $server_public_key" | tee -a $root/$interface_name.conf
+echo "Endpoint = $server_ip_or_domain:51820" | tee -a $root/$interface_name.conf
+echo "AllowedIPs = $subnet" | tee -a $root/$interface_name.conf
+echo "PersistentKeepalive = 25" | tee -a $root/$interface_name.conf
 
 
 wg set $interface_name peer $(cat $root/publickey) allowed-ips $ip/32 persistent-keepalive 25
