@@ -38,6 +38,9 @@ net.ipv4.ip_forward=1
 ```
 sudo sysctl -p
 ```
+```bash
+iptables -t nat -A POSTROUTING -s 10.10.10.0/24 -o eth0 -j MASQUERADE
+```
 ## Start Server
 ```bash
 wg-quick up /etc/wireguard/wg0.conf
